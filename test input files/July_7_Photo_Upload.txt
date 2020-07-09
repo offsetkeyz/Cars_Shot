@@ -1,0 +1,31 @@
+
+Batch Photo Upload Summary
+
+Run Date:  2020-07-07 19:04:57
+
+Customer Name             Stock No    Year/Make/Model               
+------------------------  ----------  ----------------------------  
+Findlay Honda NW  (NEW)   F201024     2020/HONDA/CR-V               15  
+Findlay Honda NW  (NEW)   F201022     2020/HONDA/ODYSSEY            16  
+Findlay Honda NW  (NEW)   F201003     2020/HONDA/CIVIC SI SEDAN     14  
+Findlay Honda NW  (NEW)   F201029     2020/HONDA/ODYSSEY            16  
+Findlay Honda NW  (NEW)   F201032     2020/HONDA/ACCORD SEDAN       13  
+Findlay Honda NW  (NEW)   F201034     2020/HONDA/ACCORD SEDAN       13  
+Findlay Honda NW  (NEW)   F201031     2020/HONDA/ACCORD SEDAN       13  
+Findlay Honda NW  (NEW)   20973       2020/HONDA/ACCORD SEDAN       15  
+Findlay Honda NW  (NEW)   20991       2020/HONDA/CIVIC              13  
+Findlay Honda NW  (NEW)   20995       2020/HONDA/CR-V               13  
+Findlay Honda NW  (NEW)   F201010     2020/HONDA/CR-V               13  
+Findlay Honda NW  (NEW)   F201025     2020/HONDA/CR-V               13  
+Findlay Honda NW  (NEW)   F201039     2020/HONDA/CR-V               13  
+Findlay Honda NW (USED)   P3107A      2019/LEXUS/GX                 36  
+Findlay Honda NW (USED)   P3127       2017/HONDA/CIVIC              31  
+Findlay Honda NW (USED)   P3131       2017/HONDA/CIVIC              30  
+Findlay Honda NW (USED)   T20970A     2018/HONDA/CR-V               35  
+Findlay Honda NW (USED)   20292A      2018/HONDA/PILOT              35  
+Findlay North VW (USED)   P4317       2013/VOLKSWAGEN/PASSAT        29  
+Findlay North VW (USED)   P4314       2014/VOLKSWAGEN/JETTA         26  
+Findlay North VW (USED)   T501861A    2017/VOLKSWAGEN/TIGUAN        28  
+
+    Total # of Autos Processed: 21
+Total # of Auto Pics Processed: 430
