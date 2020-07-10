@@ -5,27 +5,26 @@ Run Date:  2020-07-07 19:04:57
 
 Customer Name             Stock No    Year/Make/Model               
 ------------------------  ----------  ----------------------------  
-Findlay Honda NW  (NEW)   F201024     2020/HONDA/CR-V               15  
-Findlay Honda NW  (NEW)   F201022     2020/HONDA/ODYSSEY            16  
-Findlay Honda NW  (NEW)   F201003     2020/HONDA/CIVIC SI SEDAN     14  
-Findlay Honda NW  (NEW)   F201029     2020/HONDA/ODYSSEY            16  
-Findlay Honda NW  (NEW)   F201032     2020/HONDA/ACCORD SEDAN       13  
-Findlay Honda NW  (NEW)   F201034     2020/HONDA/ACCORD SEDAN       13  
-Findlay Honda NW  (NEW)   F201031     2020/HONDA/ACCORD SEDAN       13  
-Findlay Honda NW  (NEW)   20973       2020/HONDA/ACCORD SEDAN       15  
-Findlay Honda NW  (NEW)   20991       2020/HONDA/CIVIC              13  
-Findlay Honda NW  (NEW)   20995       2020/HONDA/CR-V               13  
-Findlay Honda NW  (NEW)   F201010     2020/HONDA/CR-V               13  
-Findlay Honda NW  (NEW)   F201025     2020/HONDA/CR-V               13  
-Findlay Honda NW  (NEW)   F201039     2020/HONDA/CR-V               13  
-Findlay Honda NW (USED)   P3107A      2019/LEXUS/GX                 36  
-Findlay Honda NW (USED)   P3127       2017/HONDA/CIVIC              31  
-Findlay Honda NW (USED)   P3131       2017/HONDA/CIVIC              30  
-Findlay Honda NW (USED)   T20970A     2018/HONDA/CR-V               35  
-Findlay Honda NW (USED)   20292A      2018/HONDA/PILOT              35  
-Findlay North VW (USED)   P4317       2013/VOLKSWAGEN/PASSAT        29  
-Findlay North VW (USED)   P4314       2014/VOLKSWAGEN/JETTA         26  
-Findlay North VW (USED)   T501861A    2017/VOLKSWAGEN/TIGUAN        28  
+Prestige CJDR (USED)        PR25936A    2013/FORD/F-150               26
+Prestige CJDR (USED)        PR25527A    2016/CHEVROLET/COLORADO       25
+Prestige CJDR (USED)        PW25427A    2019/RAM/1500                 28
+Prestige CJDR (USED)        PW25972A    2018/JEEP/GRAND CHEROKEE      27
+Prestige CJDR (USED)        PG25617A    2017/DODGE/CHALLENGER         26
+Prestige CJDR (USED)        PN24549A    2019/NISSAN/ALTIMA            27
+Prestige CJDR (USED)        PR25854A    2014/DODGE/DURANGO            29
+Jim Marsh Chrysler Jeep (USED) J4767C      2018/JEEP/CHEROKEE            37
+Jim Marsh Chrysler Jeep (USED) J4311A1E    2013/FORD/FUSION              34
+Jim Marsh Chrysler Jeep (USED) J4577A      2017/JEEP/RENEGADE            35
+Jim Marsh Chrysler Jeep (USED) J4511A      2015/TOYOTA/PRIUS             35
+Jim Marsh Kia (USED)        PK9627A     2016/NISSAN/ROGUE             36
+Jim Marsh Kia (USED)        K3633A      2016/JEEP/GRAND CHEROKEE      34
+Jim Marsh Kia (NEW)       Z1228       2021/KIA/SOUL                 14
+Jim Marsh Kia (NEW)       Z1161       2020/KIA/FORTE                14
+Jim Marsh Kia (NEW)       Z1016       2020/KIA/FORTE                15
+Jim Marsh Kia (NEW)       Z1116       2020/KIA/SPORTAGE             14
+Jim Marsh Kia (NEW)       Z1230       2020/KIA/SORENTO              14
+Jim Marsh Kia (NEW)       Z1243       2021/KIA/SOUL                 16
+Jim Marsh Kia (USED)        Z1017A      2014/KIA/SORENTO              36  
 
     Total # of Autos Processed: 21
 Total # of Auto Pics Processed: 430

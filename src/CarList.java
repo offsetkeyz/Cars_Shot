@@ -1,19 +1,24 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EmailScanner { //TODO store the data
+public class CarList { //TODO store the data
 
    private File email;
+   private List<Car> allCars;
 
    /**
     * Scans in a text file in the dealers specific format.
     * @param fileName
     * @throws FileNotFoundException
     */
-   public EmailScanner(String fileName) throws FileNotFoundException {
+   public CarList(String fileName) throws IOException {
       try {
          email = new File(fileName);
          if (!email.canRead()) {
@@ -23,16 +28,20 @@ public class EmailScanner { //TODO store the data
          e.printStackTrace();
          System.out.println("File could not be read in.");
       }
+      allCars = this.getAllCars();
    }
 
    /**
     * Returns an ArrayList of all cars found in this email.
     * @return ArrayLis
     */
-   public List<Car> getAllCars() throws FileNotFoundException {
+   public List<Car> getAllCars() throws IOException {
       if(!this.isValidEmail()) {
          System.exit(0);
       }
+
+      this.replaceUsed();
+
       List<Car> allCars = new ArrayList<>();
       ArrayList<String> strings = this.getAllCarLines();
       for (int i = 0; i < strings.size() - 3; i++) {
@@ -71,6 +80,32 @@ public class EmailScanner { //TODO store the data
       }
       System.out.println("Cars added: " + allCars.size());
       return allCars;
+   }
+
+   /**
+    * Replaces "(USED)" to add a space afterwards.
+    * Occasionally the (USED) is merged with the stock number.
+    * This fixes that issue.
+    * @throws IOException
+    */
+   private void replaceUsed() throws IOException {
+      String oldContent = "";
+      String newContent = "";
+      BufferedReader reader = new BufferedReader(new FileReader(email));
+      //Reading all the lines of input text file into oldContent
+      String line = reader.readLine();
+
+      while (line != null) {
+         oldContent = oldContent + line + System.lineSeparator();
+         line = reader.readLine();
+      }
+      newContent = oldContent.replaceAll("\\(USED\\)", "(USED) ");
+      FileWriter write = new FileWriter(email);
+      write.write(newContent);
+
+      reader.close();
+      write.close();
+
    }
 
    /**
@@ -140,5 +175,17 @@ public class EmailScanner { //TODO store the data
          counterScan.nextLine();
       }
       return counter;
+   }
+
+   /**
+    * Calculates the total income for all cars in this list.
+    * @return double.
+    */
+   public double totalIncome() {
+      double income = 0.0;
+      for (Car c : allCars) {
+         income += c.calculateIncome();
+      }
+      return income;
    }
 }

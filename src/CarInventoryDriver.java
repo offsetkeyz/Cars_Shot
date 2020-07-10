@@ -1,16 +1,17 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class CarInventoryDriver {
 
-    private static EmailScanner scanner;
+    private static CarList scanner;
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         try {
-            scanner = new EmailScanner("test input files\\July_7_Photo_Upload.txt");
+            scanner = new CarList("test input files\\July_7_Photo_Upload.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        scanner.getAllCars();
+        System.out.print(scanner.totalIncome());
     }
 
 
