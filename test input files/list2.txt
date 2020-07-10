@@ -1,0 +1,35 @@
+
+Batch Photo Upload Summary
+
+Run Date:  2020-07-09 20:50:09
+
+Customer Name             Stock No    Year/Make/Model
+------------------------  ----------  ----------------------------
+Prestige CJDR (USED)              PR25841A    2019/TOYOTA/TACOMA            26
+Prestige CJDR (USED)              PN24356B    2012/JEEP/LIBERTY             25
+Prestige CJDR (USED)              PR25903A    2019/CHEVROLET/COLORADO       26
+Prestige CJDR (USED)              TPU9008     2019/RAM/2500                 28
+Prestige CJDR (USED)              TPU8984     2019/CHRYSLER/300             28
+Prestige CJDR (USED)              KC824433    2019/DODGE/DURANGO            29
+Prestige CJDR (USED)              PJ25935A    2017/DODGE/JOURNEY            26
+Prestige CJDR (USED)              PN24681A    2017/DODGE/CHARGER            28
+Prestige CJDR (USED)              PU9006      2019/DODGE/GRAND CARAVAN      27
+Prestige CJDR (USED)              PR26174A    2019/RAM/1500 CLASSIC         26
+Prestige CJDR (USED)              PR23602A    2019/DODGE/CHARGER            27
+Jim Marsh Kia (USED)              PK9643      2020/KIA/OPTIMA               32
+Jim Marsh Kia (USED)              PK9639      2019/KIA/FORTE                33
+Jim Marsh Kia (USED)              Z1174A      2013/KIA/OPTIMA               36
+Jim Marsh Kia (USED)              Z1163A      2017/KIA/OPTIMA               32
+Jim Marsh Kia (USED)              Z1074A      2014/NISSAN/FRONTIER          30
+Jim Marsh Kia (USED)              PK9655      2020/KIA/SPORTAGE             34
+Jim Marsh Kia (USED)              PK9654      2020/KIA/SPORTAGE             34
+Jim Marsh Kia (USED)              PK9652      2019/KIA/SORENTO              35
+Jim Marsh Kia (USED)              Z1147A      2018/HYUNDAI/SANTA FE         34
+Jim Marsh Kia (USED)              Z1146A      2015/NISSAN/MURANO            35
+Jim Marsh Kia (USED)              PK9650      2020/KIA/SEDONA               38
+Jim Marsh Kia (USED)              PK9653      2019/KIA/SORENTO              34
+Jim Marsh Kia (USED)              PK9644      2020/KIA/OPTIMA               34
+Jim Marsh Kia (USED)              Z1220A      2017/MAZDA/MAZDA6             35
+
+    Total # of Autos Processed: 25
+Total # of Auto Pics Processed: 772

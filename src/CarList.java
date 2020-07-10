@@ -32,6 +32,18 @@ public class CarList { //TODO store the data
    }
 
    /**
+    * Calculates the total income for all cars in this list.
+    * @return double.
+    */
+   public double totalIncome() {
+      double income = 0.0;
+      for (Car c : allCars) {
+         income += c.calculateIncome();
+      }
+      return income;
+   }
+
+   /**
     * Returns an ArrayList of all cars found in this email.
     * @return ArrayLis
     */
@@ -177,15 +189,4 @@ public class CarList { //TODO store the data
       return counter;
    }
 
-   /**
-    * Calculates the total income for all cars in this list.
-    * @return double.
-    */
-   public double totalIncome() {
-      double income = 0.0;
-      for (Car c : allCars) {
-         income += c.calculateIncome();
-      }
-      return income;
-   }
 }

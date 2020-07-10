@@ -7,24 +7,48 @@
     <Snap>true</Snap>
     <Show>false</Show>
   </Grid>
+  <Scope id="1">
+    <Name>addCars</Name>
+    <Signature>(Ljava/util/List;)V</Signature>
+    <DeclaringType>AllCars</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
   <Scope id="0">
-    <Name>replaceUsed</Name>
-    <Signature>()V</Signature>
-    <DeclaringType>CarList</DeclaringType>
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>CarInventoryDriver</DeclaringType>
     <Depth>0</Depth>
   </Scope>
   <Frame>
     <Bounds>
       <AutoSize>true</AutoSize>
-      <X>140</X>
-      <Y>230</Y>
-      <W>586</W>
-      <H>408</H>
+      <X>110</X>
+      <Y>410</Y>
+      <W>98</W>
+      <H>38</H>
     </Bounds>
     <Viewer>
       <ScopeID>0</ScopeID>
-      <Expression>`local java.lang.String` newContent</Expression>
-      <ViewerClass>jgrasp_viewers.java__lang__String_FormattedView</ViewerClass>
+      <Expression>`local` allCars</Expression>
+    </Viewer>
+  </Frame>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>50</X>
+      <Y>140</Y>
+      <W>448</W>
+      <H>140</H>
+    </Bounds>
+    <Viewer>
+      <ScopeID>1</ScopeID>
+      <Expression>`local` allCars</Expression>
+      <ViewerClass>jgrasp_viewers.java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <ViewData>
+          <Round>false</Round>
+        </ViewData>
+      </ViewerData>
     </Viewer>
   </Frame>
   <Size>
